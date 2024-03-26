@@ -13,7 +13,7 @@ app.get('/test', (req, res) => {
     res.send('success');
   });
 
-
+//Some changes
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended : false}));
